@@ -1,5 +1,9 @@
 public class Hero extends Character {
     String weapon;
+    public Hero(String name, int hp,String weapon) {
+        super(name, hp);
+        weapon = this.weapon;
+    }
     @Override
     public void attack(Character target) {
         System.out.println(this.name + "は" + this.weapon + "で攻撃！" + target.name + "に10のダメージを与えた！」");
