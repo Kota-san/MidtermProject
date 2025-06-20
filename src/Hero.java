@@ -2,7 +2,7 @@ public class Hero extends Character {
     String weapon;
     public Hero(String name, int hp,String weapon) {
         super(name, hp);
-        weapon = this.weapon;
+        this.weapon = weapon;
     }
     @Override
     public void attack(Character target) {
